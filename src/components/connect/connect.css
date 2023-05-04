@@ -1,0 +1,180 @@
+@keyframes diwali-light-one{
+    0%{
+        color: red;
+    }
+    50%{
+        color: blue;
+    }
+    100%{
+        color: green;
+    }
+}
+
+@keyframes diwali-light-two{
+    0%{
+        color: green;
+    }
+    50%{
+        color: red;
+    }
+    100%{
+        color: blue;
+    }
+}
+
+@keyframes diwali-light-three{
+    0%{
+        color: blue;
+    }
+    50%{
+        color: green;
+    }
+    100%{
+        color: red;
+    }
+}
+
+@keyframes smooth-color {
+    0% {
+      text-shadow: -1.5px 1.5px 0 var(--one), 1.5px 1.5px 0 var(--one),
+        1.5px -1.5px 0 var(--one), -1.5px -1.5px 0 var(--one);
+    }
+    10% {
+      text-shadow: -1.5px 1.5px 0 var(--two), 1.5px 1.5px 0 var(--two),
+        1.5px -1.5px 0 var(--two), -1.5px -1.5px 0 var(--one);
+    }
+    20% {
+      text-shadow: -1px 1px 0 var(--three), 1px 1px 0 var(--three),
+        1px -1px 0 var(--three), -1px -1px 0 var(--one);
+    }
+    20% {
+      text-shadow: -1.5px 1.5px 0 var(--four), 1.5px 1.5px 0 var(--four),
+        1.5px -1.5px 0 var(--four), -1.5px -1.5px 0 var(--four);
+    }
+    40% {
+      text-shadow: -2px 2px 0 var(--five), 2px 2px 0 var(--five),
+        2px -2px 0 var(--five), -2px -2px 0 var(--five);
+    }
+    50% {
+      text-shadow: -1.5px 1.5px 0 var(--six), 1.5px 1.5px 0 var(--six),
+        1.5px -1.5px 0 var(--six), -1.5px -1.5px 0 var(--six);
+    }
+    60% {
+      text-shadow: -1px 1px 0 var(--seven), 1px 1px 0 var(--seven),
+        1px -1px 0 var(--seven), -1px -1px 0 var(--seven);
+    }
+    70% {
+      text-shadow: -1.5px 1.5px 0 var(--eight), 1.5px 1.5px 0 var(--eight),
+        1.5px -1.5px 0 var(--eight), -1.5px -1.5px 0 var(--eight);
+    }
+    80% {
+      text-shadow: -2px 2px 0 var(--nine), 2px 2px 0 var(--nine),
+        2px -2px 0 var(--nine), -2px -2px 0 var(--nine);
+    }
+    90% {
+      text-shadow: -1.5px 1.5px 0 var(--ten), 1.5px 1.5px 0 var(--ten),
+        1.5px -1.5px 0 var(--ten), -1.5px -1.5px 0 var(--ten);
+    }
+    100% {
+      text-shadow: -1px 1px 0 var(--eleven), 1px 1px 0 var(--eleven),
+        1px -1px 0 var(--eleven), -1px -1px 0 var(--eleven);
+    }
+  }
+  
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@700&display=swap");
+
+.main-connect{
+    margin: 0px;
+}
+
+.sub-connect{
+    text-align: center;
+    font-size: 5rem;
+}
+
+.main-text{
+    color: #000000;
+    font-family: "Silkscreen", cursive;
+    font-size: 5rem;
+    animation-name: smooth-color;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+
+.ln{
+    color: #009dff;
+    text-decoration: none;
+}
+.gh{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.tuduntu{
+    display: flex;
+    font-size: 5rem;
+    padding: 0 0 0 18rem;
+}
+
+.ek{
+    font-family: "Silkscreen", cursive;
+    animation-name: diwali-light-one;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    margin: 0px;
+}
+.due{
+    font-family: "Silkscreen", cursive;
+    animation-name: diwali-light-two;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    margin: 0px;
+}
+.teen{
+    font-family: "Silkscreen", cursive;
+    animation-name: diwali-light-three;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    margin: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-connect{
+        padding: 3rem 0 10rem 0;
+    }
+    
+    .sub-connect{
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    .main-text{
+        color: #000000;
+        padding: 0 2rem 0 3rem;
+        font-size: 3rem;
+    }
+
+    .tuduntu{
+        padding-left: 6.4rem;
+        font-size: 2rem;
+    }
+
+    .ek{
+        font-family: "Silkscreen", cursive;
+        animation-name: diwali-light-one;
+        animation-iteration-count: infinite;
+        animation-duration: 1s;
+    }
+    .due{
+        font-family: "Silkscreen", cursive;
+        animation-name: diwali-light-two;
+        animation-iteration-count: infinite;
+        animation-duration: 1s;
+    }
+    .teen{
+        font-family: "Silkscreen", cursive;
+        animation-name: diwali-light-three;
+        animation-iteration-count: infinite;
+        animation-duration: 1s;
+    }
+}

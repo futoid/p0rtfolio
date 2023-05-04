@@ -1,0 +1,267 @@
+:root {
+  --one: #ff7272;
+  --two: #ffa572;
+  --three: #ffe072;
+  --four: #b8ff72;
+  --five: #72ff91;
+  --six: #72fff7;
+  --seven: #72aaff;
+  --eight: #8572ff;
+  --nine: #d272ff;
+  --ten: #ff72e0;
+  --eleven: #ff728b;
+  --jl: #6f6f6f;
+  --ex: #313131;
+  --sk: #ffffff;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@700&display=swap");
+
+@keyframes smooth-color {
+  0% {
+    text-shadow: -1.5px 1.5px 0 var(--one), 1.5px 1.5px 0 var(--one),
+      1.5px -1.5px 0 var(--one), -1.5px -1.5px 0 var(--one);
+  }
+  10% {
+    text-shadow: -1.5px 1.5px 0 var(--two), 1.5px 1.5px 0 var(--two),
+      1.5px -1.5px 0 var(--two), -1.5px -1.5px 0 var(--one);
+  }
+  20% {
+    text-shadow: -1px 1px 0 var(--three), 1px 1px 0 var(--three),
+      1px -1px 0 var(--three), -1px -1px 0 var(--one);
+  }
+  20% {
+    text-shadow: -1.5px 1.5px 0 var(--four), 1.5px 1.5px 0 var(--four),
+      1.5px -1.5px 0 var(--four), -1.5px -1.5px 0 var(--four);
+  }
+  40% {
+    text-shadow: -2px 2px 0 var(--five), 2px 2px 0 var(--five),
+      2px -2px 0 var(--five), -2px -2px 0 var(--five);
+  }
+  50% {
+    text-shadow: -1.5px 1.5px 0 var(--six), 1.5px 1.5px 0 var(--six),
+      1.5px -1.5px 0 var(--six), -1.5px -1.5px 0 var(--six);
+  }
+  60% {
+    text-shadow: -1px 1px 0 var(--seven), 1px 1px 0 var(--seven),
+      1px -1px 0 var(--seven), -1px -1px 0 var(--seven);
+  }
+  70% {
+    text-shadow: -1.5px 1.5px 0 var(--eight), 1.5px 1.5px 0 var(--eight),
+      1.5px -1.5px 0 var(--eight), -1.5px -1.5px 0 var(--eight);
+  }
+  80% {
+    text-shadow: -2px 2px 0 var(--nine), 2px 2px 0 var(--nine),
+      2px -2px 0 var(--nine), -2px -2px 0 var(--nine);
+  }
+  90% {
+    text-shadow: -1.5px 1.5px 0 var(--ten), 1.5px 1.5px 0 var(--ten),
+      1.5px -1.5px 0 var(--ten), -1.5px -1.5px 0 var(--ten);
+  }
+  100% {
+    text-shadow: -1px 1px 0 var(--eleven), 1px 1px 0 var(--eleven),
+      1px -1px 0 var(--eleven), -1px -1px 0 var(--eleven);
+  }
+}
+
+.main-skills {
+  padding: 8rem 0 4rem 0;
+}
+
+.head-text {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 7rem;
+  font-family: "Silkscreen", cursive;
+  animation-name: smooth-color;
+  animation-iteration-count: infinite;
+  animation-duration: 20s;
+}
+
+.known-div {
+  margin: 0rem;
+  display: flex;
+  padding: 0 0 4rem 6rem;
+}
+
+.temp {
+  font-size: 2rem;
+  margin: 0px;
+  padding: 0 9rem 0 9rem;
+}
+
+.ex {
+  color: var(--ex);
+}
+
+.jl {
+  color: var(--jl);
+}
+
+.sk {
+  color: var(--sk);
+}
+
+.all-skills {
+  text-align: center;
+  font-weight: 700;
+}
+
+.a{
+    cursor:crosshair;
+}
+
+.c {
+  color: var(--sk);
+  font-size: 4rem;
+}
+.cpp{
+    color: var(--sk);
+    font-size: 3.5rem;
+}
+.html{
+    color: var(--ex);
+    font-size: 3.4rem;
+}
+.css{
+    color: var(--ex);
+    font-size: 3.4rem;
+    padding-left: 0.4rem;   
+}
+.js{
+    color: var(--ex);
+    font-size: 3.4rem;
+    padding-left: 0.4rem;   
+}
+.reactjs{
+    color: var(--sk);
+    font-size: 5.1rem;
+    padding-right: 0.4rem;    
+}
+.nextjs{
+    color: var(--jl);
+    font-size: 5.1rem;
+}
+.tcss{
+    color: var(--jl);
+    font-size: 3.5rem;
+}
+.njs{
+    color: var(--ex);
+    font-size: 3.4rem;
+    padding-left: 0.3rem;
+}
+.mdb{
+    color: var(--ex);
+    font-size: 2.8rem;
+    padding-right: 0.5rem;
+}
+.ejs{
+    color: var(--ex);
+    font-size: 2.8rem;
+}
+.dsa{
+    color: var(--sk);
+    font-size: 2rem;
+}
+.infinity{
+    color: var(--sk);
+    font-size: 3rem;
+  }
+
+@media only screen and (max-width: 600px) {
+
+  .main-skills {
+    padding: 8rem 0 4rem 0;
+  }
+
+  .head-text {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    font-family: "Silkscreen", cursive;
+    animation-name: smooth-color;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+  }
+
+  .known-div {
+    margin: 0rem;
+    display: flex;
+    padding: 0 0 1rem 1rem;
+  }
+
+  .temp {
+    font-size: 1rem;
+    margin: 0px;
+    padding: 0 1rem 0 2rem;
+  }
+
+  .all-skills {
+    text-align: center;
+    font-weight: 700;
+    padding: 1.4rem 0 5rem 0;
+  }
+  
+  .a{
+      cursor:crosshair;
+  }
+  
+  .c {
+    color: var(--sk);
+    font-size: 2rem;
+  }
+  .cpp{
+      color: var(--sk);
+      font-size: 1.5rem;
+  }
+  .html{
+      color: var(--ex);
+      font-size: 1.3rem;
+  }
+  .css{
+      color: var(--ex);
+      font-size: 1.3rem;
+      padding-left: 0.4rem;   
+  }
+  .js{
+      color: var(--ex);
+      font-size: 1.3rem;
+      padding-left: 0.4rem;   
+  }
+  .reactjs{
+      color: var(--sk);
+      font-size: 2rem;
+      padding-right: 0.4rem;    
+  }
+  .nextjs{
+      color: var(--jl);
+      font-size: 2rem;
+  }
+  .tcss{
+      color: var(--jl);
+      font-size: 1.4rem;
+  }
+  .njs{
+      color: var(--ex);
+      font-size: 1.4rem;
+      padding-left: 0.3rem;
+  }
+  .mdb{
+      color: var(--ex);
+      font-size: 1.3rem;
+      padding-right: 0.5rem;
+  }
+  .ejs{
+      color: var(--ex);
+      font-size: 1.3rem;
+  }
+  .dsa{
+      color: var(--sk);
+      font-size: 1.2rem;
+  }
+  .infinity{
+    color: var(--sk);
+    font-size: 3rem;
+  }
+}

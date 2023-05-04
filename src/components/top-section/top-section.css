@@ -1,0 +1,158 @@
+:root {
+  --one: #ff7272;
+  --two: #ffa572;
+  --three: #ffe072;
+  --four: #b8ff72;
+  --five: #72ff91;
+  --six: #72fff7;
+  --seven: #72aaff;
+  --eight: #8572ff;
+  --nine: #d272ff;
+  --ten: #ff72e0;
+  --eleven: #ff728b;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@700&display=swap");
+
+@keyframes change-color {
+  0% {
+    text-shadow: -2px 2px 0 var(--one), 2px 2px 0 var(--one),
+        2px -2px 0 var(--one), -2px -2px 0 var(--one);
+  }
+  10% {
+    text-shadow: -1.5px 1.5px 0 var(--two), 1.5px 1.5px 0 var(--two),
+      1.5px -1.5px 0 var(--two), -1.5px -1.5px 0 var(--one);
+  }
+  20% {
+    text-shadow: -1px 1px 0 var(--three), 1px 1px 0 var(--three),
+      1px -1px 0 var(--three), -1px -1px 0 var(--one);
+  }
+  20% {
+    text-shadow: -1.5px 1.5px 0 var(--four), 1.5px 1.5px 0 var(--four),
+      1.5px -1.5px 0 var(--four), -1.5px -1.5px 0 var(--four);
+  }
+  40% {
+    text-shadow: -2px 2px 0 var(--five), 2px 2px 0 var(--five),
+      2px -2px 0 var(--five), -2px -2px 0 var(--five);
+  }
+  50% {
+    text-shadow: -1.5px 1.5px 0 var(--six), 1.5px 1.5px 0 var(--six),
+      1.5px -1.5px 0 var(--six), -1.5px -1.5px 0 var(--six);
+  }
+  60% {
+    text-shadow: -1px 1px 0 var(--seven), 1px 1px 0 var(--seven),
+      1px -1px 0 var(--seven), -1px -1px 0 var(--seven);
+  }
+  70% {
+    text-shadow: -1.5px 1.5px 0 var(--eight), 1.5px 1.5px 0 var(--eight),
+      1.5px -1.5px 0 var(--eight), -1.5px -1.5px 0 var(--eight);
+  }
+  80% {
+    text-shadow: -1px 1px 0 var(--nine), 1px 1px 0 var(--nine),
+      1px -1px 0 var(--nine), -1px -1px 0 var(--nine);
+  }
+  90% {
+    text-shadow: -1.5px 1.5px 0 var(--ten), 1.5px 1.5px 0 var(--ten),
+      1.5px -1.5px 0 var(--ten), -1.5px -1.5px 0 var(--ten);
+  }
+  100% {
+    text-shadow: -1px 1px 0 var(--eleven), 1px 1px 0 var(--eleven),
+      1px -1px 0 var(--eleven), -1px -1px 0 var(--eleven);
+  }
+}
+
+.main {
+  padding: 1rem;
+}
+
+.upper-text {
+  color: #ffffff;
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  animation-name: change-color;
+  animation-iteration-count: infinite;
+  animation-duration: 15s;
+}
+
+.nomean-text {
+  margin: 0px;
+  font-family: "Silkscreen", cursive;
+  text-align: center;
+  font-size: 12rem;
+}
+
+.my-text {
+  font-family: "Silkscreen", cursive;
+}
+
+.nosense-text {
+  visibility: hidden;
+  font-size: 0px;
+}
+
+.option-selection {
+  padding-top: 2rem;
+  display: flex;
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.option-text {
+  padding: 0rem 5rem 0rem 11rem;
+}
+
+.skills {
+    color: #dfffbf;
+}
+
+.projects{
+    color: #ebc1ff;
+}
+.connect{
+    color: #ffbcbc;
+}
+
+@media only screen and (max-width: 600px) {
+  .upper-text {
+    margin-top: 0%;
+    font-size: 2rem;
+    animation-name: change-color;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+  }
+  .nomean-text {
+    font-size: 0px;
+    visibility: hidden;
+  }
+
+  .nosense-text {
+    text-align: center;
+    visibility: visible;
+    font-size: 4.7rem;
+    font-weight: 900;
+    font-family: "Silkscreen", cursive;
+  }
+  .up {
+    margin: 0px;
+  }
+  .mid {
+    margin: 0px;
+  }
+  .down {
+    margin: 0px;
+  }
+
+  .option-selection {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 1.2rem;
+  }
+
+  .option-text {
+    text-align: center;
+    padding: 0rem 1rem 0rem 1rem;
+  }
+}

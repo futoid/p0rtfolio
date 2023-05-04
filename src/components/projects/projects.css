@@ -1,0 +1,78 @@
+@keyframes smooth-color {
+    0% {
+      text-shadow: -1.5px 1.5px 0 var(--one), 1.5px 1.5px 0 var(--one),
+        1.5px -1.5px 0 var(--one), -1.5px -1.5px 0 var(--one);
+    }
+    10% {
+      text-shadow: -1.5px 1.5px 0 var(--two), 1.5px 1.5px 0 var(--two),
+        1.5px -1.5px 0 var(--two), -1.5px -1.5px 0 var(--one);
+    }
+    20% {
+      text-shadow: -1px 1px 0 var(--three), 1px 1px 0 var(--three),
+        1px -1px 0 var(--three), -1px -1px 0 var(--one);
+    }
+    20% {
+      text-shadow: -1.5px 1.5px 0 var(--four), 1.5px 1.5px 0 var(--four),
+        1.5px -1.5px 0 var(--four), -1.5px -1.5px 0 var(--four);
+    }
+    40% {
+      text-shadow: -2px 2px 0 var(--five), 2px 2px 0 var(--five),
+        2px -2px 0 var(--five), -2px -2px 0 var(--five);
+    }
+    50% {
+      text-shadow: -1.5px 1.5px 0 var(--six), 1.5px 1.5px 0 var(--six),
+        1.5px -1.5px 0 var(--six), -1.5px -1.5px 0 var(--six);
+    }
+    60% {
+      text-shadow: -1px 1px 0 var(--seven), 1px 1px 0 var(--seven),
+        1px -1px 0 var(--seven), -1px -1px 0 var(--seven);
+    }
+    70% {
+      text-shadow: -1.5px 1.5px 0 var(--eight), 1.5px 1.5px 0 var(--eight),
+        1.5px -1.5px 0 var(--eight), -1.5px -1.5px 0 var(--eight);
+    }
+    80% {
+      text-shadow: -2px 2px 0 var(--nine), 2px 2px 0 var(--nine),
+        2px -2px 0 var(--nine), -2px -2px 0 var(--nine);
+    }
+    90% {
+      text-shadow: -1.5px 1.5px 0 var(--ten), 1.5px 1.5px 0 var(--ten),
+        1.5px -1.5px 0 var(--ten), -1.5px -1.5px 0 var(--ten);
+    }
+    100% {
+      text-shadow: -1px 1px 0 var(--eleven), 1px 1px 0 var(--eleven),
+        1px -1px 0 var(--eleven), -1px -1px 0 var(--eleven);
+    }
+  }
+  
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@700&display=swap");
+
+.main-project {
+    padding: 8rem 0 4rem 0;
+}
+
+.main-project-head{
+    text-align: center;
+    color: #000000;
+    font-family: "Silkscreen", cursive;
+    font-size: 7rem;
+    animation-name: smooth-color;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-project {
+        padding: 8rem 0 4rem 0;
+    }
+    
+    .main-project-head{
+        text-align: center;
+        color: #000000;
+        font-family: "Silkscreen", cursive;
+        font-size: 3rem;
+        animation-name: smooth-color;
+        animation-iteration-count: infinite;
+        animation-duration: 20s;
+    }
+}
